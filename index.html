@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho 2026 - Agrofloresta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Agrinho 2026</div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">O que é?</a></li>
+                <li><a href="#beneficios">Benefícios</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-conteudo">
+            <h1>Semeando o Futuro com a Agrofloresta</h1>
+            <p>Descubra como a agricultura e a preservação da natureza caminham juntas no Agrinho 2026.</p>
+            <button id="btnSaibaMais">Saber Mais</button>
+        </div>
+    </section>
+
+    <section id="sobre" class="conteudo-secao">
+        <h2>O que é Agrofloresta?</h2>
+        <p>A agrofloresta (ou sistema agroflorestal) é uma forma de produção que reúne o plantio de árvores (floresta) com culturas agrícolas e/ou criação de animais. Ela imita os processos da própria natureza, trazendo equilíbrio ecológico.</p>
+    </section>
+
+    <section id="beneficios" class="conteudo-secao">
+        <h2>Benefícios para o Planeta</h2>
+        <div class="cards">
+            <div class="card" onclick="revelarDica('card1')">
+                <h3>Solo Fértil</h3>
+                <p id="card1" class="dica-oculta">As folhas que caem das árvores viram adubo natural!</p>
+            </div>
+            <div class="card" onclick="revelarDica('card2')">
+                <h3>Biodiversidade</h3>
+                <p id="card2" class="dica-oculta">Atrai pássaros, insetos polinizadores e protege a fauna local.</p>
+            </div>
+            <div class="card" onclick="revelarDica('card3')">
+                <h3>Água Limpa</h3>
+                <p id="card3" class="dica-oculta">As raízes das árvores ajudam a segurar a água no solo e evitam a erosão.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Projeto Agrinho - Tema Agrofloresta. Desenvolvido para o Futuro.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
